@@ -1,8 +1,9 @@
 /* Color : #C0C78C #A6B37D #FEFAE0 #B99470 #597445  */
 
 body {
-    background-color: #FEFAE0;
+    background-color: #C0C78C;
     margin: 0;
+    font-family: "Noto Serif TC", sans-serif;
 }
 
 
@@ -59,8 +60,9 @@ ul.bar li a:hover {
 
 .column1 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
+    border-radius: 100px;
+
 }
 
 /*Right*/
@@ -71,6 +73,7 @@ ul.bar li a:hover {
     bottom: 0;
     right: 0;
     padding-right: 10%;
+    margin: 20px 20px;
 
 }
 
@@ -112,6 +115,7 @@ div.column2 a img {
     content: "";
     display: table;
     clear: both;
+    margin-bottom: 10px;
 }
 
 a.box {
@@ -125,7 +129,7 @@ a.box {
 }
 
 a.box:hover {
-    background-color: white;
+    background-color: #FEFAE0;
     border: 1px solid lightgrey;
     border-radius: 25px;
 }
@@ -180,7 +184,18 @@ div.subcenterbox pre.content {
     letter-spacing: 0.5px;
     line-height: 1.6;
     text-wrap: wrap;
+}
 
+div.subcenterbox h1.content {
+    padding: 0 3%;
+    font-size: 25px;
+    font-family: "Noto Serif TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    text-wrap: wrap;
 }
 
 /*Media Screen*/
