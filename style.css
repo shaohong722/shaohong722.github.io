@@ -1,7 +1,7 @@
 /* Color : #C0C78C #A6B37D #FEFAE0 #B99470 #597445  */
 
 body {
-    background-color: #C0C78C;
+    background-color: #FEFAE0;
     margin: 0;
     font-family: "Noto Serif TC", sans-serif;
 }
@@ -61,8 +61,6 @@ ul.bar li a:hover {
 .column1 img {
     display: block;
     margin: 20px auto;
-    border-radius: 100px;
-
 }
 
 /*Right*/
